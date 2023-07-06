@@ -6,7 +6,7 @@ public void prepareSweetBox() throws InterruptedException {
 System.out.println("Chef preparing sweet box");
 semaphore.acquire();
 System.out.println("Chef has prepared the sweet box.");
-}
+} // this is for the test. 
 public void pickSweetBox() throws InterruptedException {
 System.out.println("Salesboy is waiting for a sweet box...");
 semaphore.acquire();
